@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
+#define soumik_7063 ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
 
 // soumik's lazy propagation template
@@ -79,6 +80,7 @@ class SGTree{
 };
 
 signed main(){
+    soumik_7063
    int n,q;
    cin>>n>>q;
    vector<int>a(n);
